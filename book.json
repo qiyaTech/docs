@@ -1,6 +1,6 @@
 {
-  "title": "技术相关文档",
-  "author": "qiya",
+  "title": "解决方案实现",
+  "author": "wangyaqi",
   "language": "zh-hans",
   "plugins": [
     "-sharing",
@@ -17,7 +17,7 @@
   "pluginsConfig": {
     "theme-default": {
       "showLevel": true
-    }, 
+    },
     "search-pro": {
       "cutWordLib": "nodejieba",
       "defineWord": [
@@ -31,7 +31,7 @@
       "tocLevel3Icon": "fa fa-hand-o-right"
     },
     "tbfed-pagefooter": {
-      "copyright": "qiya.tech",
+      "copyright": "wangyaqi.cn",
       "modify_label": "该文件修订时间：",
       "modify_format": "YYYY-MM-DD HH:mm:ss"
     }
