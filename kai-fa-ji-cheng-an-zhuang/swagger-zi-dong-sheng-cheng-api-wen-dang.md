@@ -111,5 +111,20 @@ private Predicate<String> bizPaths() {
     }
 ```
 
+## 业务controller代码 配置
+
+* 在方法头加上注释，并分好目录
+
+```java
+@ApiOperation(value = "终端返馈短息处理情况",tags = {"闪信"} )
+```
+
+* 增加请求参数json参数的格式（因为springfox版本问题，解析不了swwaggerw例子，所以作备注处理）
+
+```java
+@ApiParam(value = "{\"id\":\"1234\",\"status\":\" 0 or 1\",\"deviceType\":\"enterprise or app\"}", required = true)
+            @RequestBody String json
+```
+
 
 
