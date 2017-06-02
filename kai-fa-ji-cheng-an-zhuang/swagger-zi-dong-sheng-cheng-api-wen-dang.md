@@ -128,5 +128,15 @@ private Predicate<String> bizPaths() {
 
 ## 运行效果展示
 
+运行地址：http://localhost:9029/swagger-ui.html
+
+![](/assets/import.png)
+
+![](/assets/import1.png)
+
+## 最佳实践
+
+1. 定义controller最好按业分级如  /业务/模块功能/方法   /通用/模块功能/方法
+2. 
 
 
