@@ -141,6 +141,8 @@ private Predicate<String> bizPaths() {
 ## 最佳实践
 
 1. 定义controller最好按业分级如  /业务/模块功能/方法   /通用/模块功能/方法
-2. 
+
+
+
 
 
