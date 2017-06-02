@@ -1,0 +1,39 @@
+{
+  "title": "解决方案实现",
+  "author": "wangyaqi",
+  "language": "zh-hans",
+  "plugins": [
+    "-sharing",
+    "-lunr",
+    "-search",
+    "search-plus",
+    "search-pro",
+    "expandable-chapters-small",
+    "splitter",
+    "anchor-navigation-ex@0.1.8",
+    "anchors",
+    "tbfed-pagefooter"
+  ],
+  "pluginsConfig": {
+    "theme-default": {
+      "showLevel": true
+    },
+    "search-pro": {
+      "cutWordLib": "nodejieba",
+      "defineWord": [
+        "Gitbook Use"
+      ]
+    },
+    "anchor-navigation-ex": {
+      "isRewritePageTitle": false,
+      "tocLevel1Icon": "fa fa-hand-o-right",
+      "tocLevel2Icon": "fa fa-hand-o-right",
+      "tocLevel3Icon": "fa fa-hand-o-right"
+    },
+    "tbfed-pagefooter": {
+      "copyright": "wangyaqi.cn",
+      "modify_label": "该文件修订时间：",
+      "modify_format": "YYYY-MM-DD HH:mm:ss"
+    }
+  }
+}
