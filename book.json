@@ -17,7 +17,7 @@
   "pluginsConfig": {
     "theme-default": {
       "showLevel": true
-    },
+    }, 
     "search-pro": {
       "cutWordLib": "nodejieba",
       "defineWord": [
